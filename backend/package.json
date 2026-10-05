@@ -3,6 +3,7 @@
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",
+    "build": "prisma generate && tsc",
     "deploy": "wrangler deploy --minify",
     "cf-typegen": "wrangler types --env-interface CloudflareBindings"
   },
@@ -17,6 +18,7 @@
   "devDependencies": {
     "@types/node": "^26.6.3",
     "prisma": "^7.10.0",
+    "typescript": "^7.0.2",
     "wrangler": "^4.110.0"
   }
 }
