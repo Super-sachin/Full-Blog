@@ -7,18 +7,18 @@
     "build": "prisma generate && tsc",
     "cf-typegen": "wrangler types --env-interface CloudflareBindings"
   },
-  "dependencies": {
-    "@prisma/client": "^7.10.0",
-    "@prisma/extension-accelerate": "^3.0.1",
-    "@sachinkarki/backend-common": "^1.0.0",
-    "@sachinkarki/cohort-2-common": "^1.0.0",
-    "@sachinkarki/cohort-common": "^1.0.0",
-    "hono": "^4.13.12"
-  },
-  "devDependencies": {
-    "@types/node": "^26.6.4",
-    "prisma": "^7.10.0",
-    "typescript": "^7.0.2",
-    "wrangler": "^4.110.0"
-  }
+ "dependencies": {
+  "@prisma/client": "^7.10.0",
+  "@prisma/extension-accelerate": "^3.0.1",
+  "@sachinkarki/backend-common": "^1.0.0",
+  "@sachinkarki/cohort-2-common": "^1.0.0",
+  "@sachinkarki/cohort-common": "^1.0.0",
+  "@types/node": "^26.6.4",
+  "hono": "^4.13.12"
+},
+"devDependencies": {
+  "prisma": "^7.10.0",
+  "typescript": "^7.0.2",
+  "wrangler": "^4.110.0"
+}
 }
